@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="/js/scrollreveal.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3e30eb6b30.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://kit.fontawesome.com/7e5b2d153f.js"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="main.js"></script>
+    <title>Luis Angel Design</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/mesa logologo 2.png" class="logo" />
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#Navegacion" class="nav-menu-link nav-link">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#Portafolio" class="nav-menu-link nav-link">Portafolio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#Shop" class="nav-menu-link nav-link">Tienda</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#Contacto" class="nav-menu-link nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="division " id="Navegacion"></div>
+    
+    <img src="img/mesa 2slider-bar.png" class="Ini">
+
+    <div class="division" id="Portafolio"></div>
+   
+    <div class="division bg-q"><h1>Potafolio de experiencia</h1></body>
+    <!--Galeria de fotos-->
+
+    <div class="galeria">
+      <img src="img/1x/Mesa de trabajo 1bloque .png" alt="">
+      <img src="img/1x/Mesa de trabajo 1joven campaña .png" alt="">
+      <img src="img/1x/Mesa de trabajo 1roque camp.png" alt="">
+      
+    </div>
+    
+    <!--Protafolio de experiencia-->
+
+    <section class="servicios text-center bg-dark" id="Servicios">
+      <h3 class="title">Servicios</h3>
+      <div class="contenido grid-3">
+        <div>
+          <i class="fa-solid fa-pencil fa-5x"></i>
+          <h3 class="sub-title">Ilustraciones</h3>
+          <p>
+            Diseños vectoriales de todo tipo, desde logos, afiches, etc, para
+            cualquier tipo de publicidad!
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-fill-drip fa-5x"></i>
+          <h3 class="sub-title">Soprte de redes</h3>
+          <p>
+            ¡Soy informatico de soporte en redes y sistemas oprativos y con experiencia!
+          </p>
+        </div>
+        <div>
+          <i class="fa-solid fa-play fa-5x"></i>
+          <h3 class="sub-title">Animaciones</h3>
+          <p>
+            ¡Animar es un no mis hobbies cuando esto animando se desconecto de todo y me dejo llevar por la imaginacion!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Principiante en code-->
+
+    <section class="about bg-light">
+      <div class="contenido text-center">
+        <div class="grid-2">
+          <div class="center">
+            <i class="fa-solid fa-code fa-10x"></i>
+          </div>
+          <div>
+            <h3 class="title">Principiante en Programación</h3>
+            <p class="text">
+              Uno de mis hobbies es programar, pasar tiempo resolviendo un
+              problema o desarrollando un sistema desde cero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Manejo de software-->
+
+    <section class="about bg-dark about-1">
+      <div class="contenido text-center">
+        <div class="grid-2">
+          <div>
+            <h3 class="title1">Manejo de Sistemas Operativos</h3>
+            <p class="text">
+              Alguno de los sistemas operativos que he podido manejar de
+              Microsoft son: "Windows, Windows-server."<br/>Distros de Linux
+              estan: "Ubuntu, Ubuntu-Server, Kali, Parrot"
+            </p>
+          </div>
+          <div class="center">
+            <i class="fa-solid fa-compact-disc fa-10x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contacto y promosiones-->
+    
+    <div class="division " id="Shop"></div>
+    <div class="division "><h1>Tienda</h1></div>
+
+    <section class="Promociones">
+      <div class=" text-center">
+        <div class="grid-2">
+          <div class="Slider-1">
+            <ul>
+              <li>
+                <img src="img/T-sheet azul.jpeg" class="T-sheet">
+              </li>
+              <li>
+                <img src="img/T-sheet neggro.jpeg" class="T-sheet">
+              </li>
+              <li>
+                <img src="img/T-sheet naranja.jpeg"  class="T-sheet">
+              </li>
+            </ul>
+          </div>
+          <div class="bg-div">
+            <h3 class="title-anuncio">T-shirt sin limites 2022</h3>
+            <h3 class="text1"> Colores Disponibles</h3>
+            <button class="text1 botones azul" onclick="mostrarFormulario();">Azul</button>
+            <button class="text1 botones negro" onclick="mostrarFormulario();">Negro</button>
+            <button class="text1 botones rojo" onclick="mostrarFormulario();">Rojo</button>
+          </div>
+        
+        <form action="https://formsubmit.co/luistt317@gmail.com" method="POST" id="formula">
+          <div class="Formulario">
+            <input type="text" name="Nombre del cliente" placeholder="Nombre completo" class="input">
+            <input type="tel" name="telefono" placeholder="Numbero de Contacto" class="input">
+            <input type="text" name="color y cantidad" placeholder="Escribe el color" class="input">
+            
+          </div>
+          <input type="submit" value="Enviar" class="boton">
+        </form>
+      </div>
+    </div>
+    </section>
+
+    <!--contactame-->
+
+    <div class="division-contacto " id="Contacto"><h1>Contacto</h1></div>
+
+          <div class="seguir">
+            <i class="iconnos fa-brands fa-facebook fa-2x"></i>
+            <a class="iconnos" href="">Facebook</a>
+            <i class="iconnos fa-solid fa-envelope fa-2x"></i>
+            <a class="iconnos" href="">luistt317@gmail.com</a>
+            <i class="iconnos fa-brands fa-github fa-2x"></i>
+            <a class="iconnos" href="">Github</a>
+          </div>
+          
+    <!--FOOTER-->
+    <footer class="footer text-center">
+      <p>Luis Angel Design &copy; 2022 - All rights reserved</p>
+    </footer>
+  </body>
+  <script src="/main.js"></script>
+</html>
